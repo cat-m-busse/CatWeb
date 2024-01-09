@@ -1,0 +1,48 @@
+/* General styling */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: url(img/cat-background.avif) no-repeat center fixed;
+  background-size: cover;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body {
+  margin-top: 5em;
+  text-align: center;
+  border: 4vh;
+  background-color: rgba(225, 225, 225, 0.5);
+}
+
+/* Webpage specific styling */
+a:hover {
+  color: rgb(5, 27, 150);
+}
+
+.header-1 {
+  padding-top: 15px;
+  text-align: center;
+}
+
+img {
+  border-radius: 15px;
+}
+
+/* homepage specific styling */
+.cat-descrip {
+  font-family: "Times New Roman", Times, serif;
+  font-size: x-large;
+}
+
+.linksWeb {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bolder;
+}
+
+.what-catWeb {
+  font-weight: lighter;
+}

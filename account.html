@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Account</title>
+    <header>
+      <link rel="stylesheet" href="navbar.css" />
+      <script defer src="main.js"></script>
+      <link rel="stylesheet" href="account.css" />
+      <h1 class="logo">CatWeb</h1>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="account.html">Account</a></li>
+        </ul>
+      </nav>
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+    </header>
+  </head>
+
+  <body>
+    <h1 class="header-1">Membership</h1>
+    <!-- <img src="img/cat-themed-banner.jpg" /> -->
+    <hr />
+    <h1 class="header-1">Become A Member Today!</h1>
+    <div class="main">
+      <p class="instructions">
+        Fill in the form below to become a member:
+        <span class="reqired-star"> *required field</span>
+      </p>
+      <p>Username: (4-10 characters) <span class="reqired-star">*</span></p>
+      <input
+        type="text"
+        class="account-input"
+        id="usernameInput"
+        placeholder="Enter username"
+      />
+      <p>Contact: (Email only) <span class="reqired-star">*</span></p>
+      <input
+        type="text"
+        class="account-input"
+        id="contactInput"
+        placeholder="Enter email adress"
+      />
+      <p>Password: <span class="reqired-star">*</span></p>
+      <input
+        type="text"
+        class="account-input"
+        id="passwordInput"
+        placeholder="Enter password"
+      />
+      <p>Confirm Password: <span class="reqired-star">*</span></p>
+      <input
+        type="text"
+        class="account-input"
+        id="passwordConfirm"
+        placeholder="Re-enter password"
+      />
+      <p></p>
+      <button id="accountBtn">Sign Up</button>
+    </div>
+  </body>
+</html>
